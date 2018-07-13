@@ -38,3 +38,15 @@ $transition-easing: ease-out;
 //$body-copy: Helvetica, Arial, sans-serif;
 $body-copy: 'Lato', sans-serif;
 $heading-copy: $body-copy;
+
+
+
+
+//overrides
+
+// 12. Grid
+// ==========================================================================
+
+$gutter-width: 0 !default;
+$element-top-margin: $gutter-width/3 !default;
+$element-bottom-margin: ($gutter-width*2)/3 !default;

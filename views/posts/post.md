@@ -1,6 +1,4 @@
 ---
 layout: default
-page: home
+page: post
 ---
-
-

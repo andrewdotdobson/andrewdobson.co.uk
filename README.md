@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Stabile
 
 A static site powered by [Jekyll](https://jekyllrb.com/).
@@ -57,4 +58,17 @@ You'll find a deployable bundle in the `_site` directory.
 
 `npm install materialize-css@next`
 
+Then import the css into `/src/sass/style.scss'`
 
+`@import "../../node_modules/materialize-css/sass/materialize";`
+
+Plug in the JS file to your document_foot
+
+```<!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+    ```
+
+
+=======
+# andrewdobson.co.uk
+>>>>>>> 05a99bd0454667edd64a89063198e4392d4afc14

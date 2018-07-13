@@ -1,0 +1,33 @@
+//project grid
+//https://scrimba.com/p/pWqLHa/cg9PpTb
+//1366px wide / column-span: 
+
+
+.project-grid-wrapper {
+	
+
+	height: 100%;
+	width: 100%;
+	display: grid;
+	grid-gap: 1px;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: repeat(4, 1fr);
+
+}
+
+.project-grid-item {
+	line-height: 0;
+
+	.grid-content {
+		line-height: 1.4;
+		padding: 5px;
+	}
+}
+
+
+.adabout {
+	grid-column-start: 3;
+	grid-column-end: 5;
+}
+
+

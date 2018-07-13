@@ -1,0 +1,29 @@
+//
+
+.grid-content {
+	line-height:0;
+	h1,h2,h3,h4,h5,h6,p {
+		line-height: 1.4;
+	}
+}
+
+.title-tile {
+
+	text-transform: uppercase;
+	h1,h2,h3,h4,h5,h6,p {
+		margin: 0 auto;
+	}
+}
+
+
+.adtitle {
+	//margin-top: 50px;
+	padding: 10px;
+	i {
+		margin: 0 5px;
+	}
+}
+
+.adabout {
+	padding: 10px;
+}
