@@ -29,7 +29,7 @@ layout: compress
 					</div>
 				</div>
 				<div class="col s12 m12 l6">
-					<div class="grid-content adabout teal lighten-2">
+					<div class="grid-content adabout blue lighten-2">
 						<h5> About</h5>
 						<p>I am a versatile and creatively-minded digital technologist who has been working with
 						digital ecosystems for over twenty years. A passionate advocate for both the art and
@@ -49,11 +49,15 @@ layout: compress
 				</div>
 				<div class="col s12 m6 l3">
 					<div class="grid-content">
-						<img class="responsive-img" src="/assets/images/portfolio/zigbee.jpg">
+					<img class="responsive-img" src="/assets/images/portfolio/zigbee.jpg">
+
+						
+
+
 					</div>
 				</div>
 				<div class="col s12 m6 l3">
-					<div class="grid-content">
+					<div class="grid-content hoverable">
 						<img class="responsive-img" src="/assets/images/portfolio/et.jpg">
 					</div>
 				</div>
@@ -67,8 +71,20 @@ layout: compress
 
 
         </section>
-    </main>
 
+    </main>
+		<button data-target="modal1" class="btn modal-trigger">Modal</button>
+        <!-- Modal Structure -->
+						  <div id="modal1" class="modal">
+						    <div class="modal-content">
+						      <h4>Zigbee Alliance - Dotdot</h4>
+						      <p>Building a new language for the IoT</p>
+						      <p>A bunch of text</p>
+						    </div>
+						    <div class="modal-footer">
+						      <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+						    </div>
+						  </div>
     {% include _global/footer.html %}
 
 {% include _global/document_foot.html %}

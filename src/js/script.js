@@ -4,7 +4,12 @@
 
     $(function() {
 		$('.grid-content').matchHeight();
+
+		$('#modal1').modal();
 	});
+
+
+
 
 
 })();
